@@ -1,8 +1,8 @@
 ## facademy-dl
-facadmy-dl strictly observes the legal regulations and `never` circumvents DRM copy protection.
+This project is an educational project on how to make a local copy of a Website.
+We aim to download to make local copies of videos and pages.
 
-This project is an educational project on `how to make a local copy` of a Website.
-For this project, we aim to download to make local copies of videos and pages from Fluency Academy.
+facadmy-dl strictly observes the legal regulations and **never circumvents** DRM copy protection.
 
 It may also not be legal to download the content from the website depending on where you live.
 Your account may be terminated if you use this project to download the content.
@@ -32,8 +32,3 @@ To run the project you'll need to:
         - The course name will be the first part of the string, in this case, `"Español 2"`
 7. Run the script
     - Run the script with python main.py <course_name>
-
-## Is it legal?
-Downloading a Fluency Academy video with facademy-dl IS NOT violating copyright in the USA. Downloading videos may violate Fluency Academy's TOS, but that's civil/contract law and not criminal and so the DMCA can't be used to enforce such TOS violations.
-
-Downloading a Fluency Academy video is making a copy. Whether it is a copyright violation depends on whether Fluency Academy's license includes letting visitors make permanent copies (they do let on IOS and Android), as this is considered a separate type of license. The TOS has nothing to do with it.
