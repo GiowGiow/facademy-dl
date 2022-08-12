@@ -4,10 +4,6 @@ We aim to download to make local copies of videos and pages.
 
 facademy-dl strictly observes the legal regulations and **never circumvents** DRM copy protection.
 
-It may also not be legal to download the content from the website depending on where you live.
-Your account may be terminated if you use this project to download the content.
-We are not responsible for how you use this project, we are not responsible for any legal issues you may face.
-
 ## How to run
 To run the project you'll need to:
 
