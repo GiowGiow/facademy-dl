@@ -2,7 +2,7 @@
 This project is an educational project on how to make a local copy of a Website.
 We aim to download to make local copies of videos and pages.
 
-facadmy-dl strictly observes the legal regulations and **never circumvents** DRM copy protection.
+facademy-dl strictly observes the legal regulations and **never circumvents** DRM copy protection.
 
 It may also not be legal to download the content from the website depending on where you live.
 Your account may be terminated if you use this project to download the content.
