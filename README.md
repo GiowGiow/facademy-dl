@@ -1,5 +1,6 @@
 ## facademy-dl
 This project is an educational project on how to make a local copy of a Website.
+
 We aim to download to make local copies of videos and pages.
 
 facademy-dl strictly observes the legal regulations and **never circumvents** DRM copy protection.
