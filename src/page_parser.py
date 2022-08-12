@@ -37,6 +37,11 @@ class PageParser:
             files.append((name, url))
         return files
 
+    def get_project_folder(self):
+        course_path_div = self.soup.find("div", {"class": "breadcrumbs"}).text
+        project_folder = course_path_div.split("/")[0].strip()
+        return project_folder
+
     def get_lesson_path(self):
         course_path_div = self.soup.find("div", {"class": "breadcrumbs"}).text
         course_path = "/".join([s.strip() for s in course_path_div.split("/")])

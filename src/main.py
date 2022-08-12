@@ -7,9 +7,6 @@ from page_loader import PageLoader
 from page_parser import PageParser
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python3 main.py project_folder")
-    project_folder = sys.argv[1]
     page_loader = PageLoader()
     bem_vindo_page = ""
     print(f"Loading first page: {bem_vindo_page}")
@@ -46,7 +43,7 @@ if __name__ == "__main__":
 
     queue, visited_links = get_queue(parser, modules_to_crawl)
     page_loader.driver.close()
-    page_loader.driver.quit()
+    project_folder = PageParser(page_html).get_project_folder()
     while True:
         try:
             crawl(queue, visited_links)

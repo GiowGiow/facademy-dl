@@ -12,7 +12,6 @@ To run the project you'll need to:
 2. Install poetry
 3. Install the dependencies:
     - `cd` into the repo folder
-    - Enter poetry shell using `poetry shell`
     - Install dependencies with `poetry install`
 4. Go to folder src:
     - cd src
@@ -24,8 +23,5 @@ To run the project you'll need to:
 6. Set needed info
     - Go to the first page of the course, which will be the "Introduction", "Bem vindo", "Benvenutti" or something like that.
     - Paste the link in the `bem_vindo_page` variable in the `main.py` file
-    - Identify on that page what will be the name of the course:
-        - Identify the element that contains the course name, it will be like `"Español 2 / ¡Bienvenido! / Bem-vindo"`
-        - The course name will be the first part of the string, in this case, `"Español 2"`
 7. Run the script
-    - Run the script with python main.py <course_name>
+    - Run the script with python main.py
